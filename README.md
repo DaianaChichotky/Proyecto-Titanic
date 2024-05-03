@@ -7,8 +7,8 @@ Durante este proyecto haré el análisis exploratorio de datos aplicando técnic
    Visualización de los datos: Crearé gráficos y diagramas que ayuden a entender y comunicar los patrones y las relaciones presentes en los datos.
 
 Resultados
-Los resultados del análisis se encuentran en el archivo Analisis_Titanic.ipynb
+- Los resultados del análisis se encuentran en el archivo Analisis_Titanic.ipynb
 
 App de Streamlit
-Cree una app de Streamlit para visualizar los resultados del análisis.
+- Cree una app de Streamlit para visualizar los resultados del análisis.
 La app se encuentra en el archivo titanic.app.py y se puede ejecutar con el comando streamlit run titanic.app.py
