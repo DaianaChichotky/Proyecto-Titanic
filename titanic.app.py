@@ -14,8 +14,8 @@ import streamlit as st
 # layout="centered" or "wide".
 st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon='🚢')
 
-logo1 = "C:\\Users\\Dai\\Desktop\\Bootcamp_Upgrade_Hub\\GitHub\Proyecto-Titanic\\img\\logo_main.png"
-logo2 = "C:\\Users\\Dai\\Desktop\\Bootcamp_Upgrade_Hub\\GitHub\Proyecto-Titanic\\img\\logo_sidebar.jpg"
+logo1 = "Proyecto-Titanic/img/logo_main.png"
+logo2 = "Proyecto-Titanic//img//logo_sidebar.jpg"
 
 
 # --------------------COLUMNAS----------------------------------------------------#
@@ -48,7 +48,7 @@ st.sidebar.title('Filtros')
 st.sidebar.write('-------')
 
 # --------------------COSAS QUE VAMOS A USAR EN TODA LA APP------------------------#
-df = pd.read_csv(r"C:\Users\Dai\Desktop\Bootcamp_Upgrade_Hub\GitHub\Proyecto-Titanic\titanic.csv")
+df = pd.read_csv(r"Proyecto-Titanic/titanic.csv")
 
 # Para reemplazar los valores nulos de las edades voy a usar un enfoque de agrupación.
 # Voy a agrupar los datos por las columnas "Embarked" y "Pclass" y luego calcular la mediana de la columna "Age" dentro de cada grupo.
@@ -404,7 +404,7 @@ with tab3:
 
 # Comentarios
 
-            Frase_1 = 'Más de la mitad de los pasajeros eran de la 3era clase.'
+            Frase_1 = 'Más de la mitad de los pasajeros viajaban en la 3era clase.'
             st.write(f"<p style='font-size:14px;text-align:center;margin-top:-50px;'><strong>{Frase_1}</strong></p>", unsafe_allow_html=True)
 
 
@@ -605,18 +605,18 @@ with tab6:
     Frase1= "🚢 Supervivencia vs clase social:"
     Frase1bis= ("""Según el resultado del análisis, a la hora de salvar niños no importaba su posición social,
             pero en cuanto a las mujeres, a la hora de salvar vidas la posición socioeconómica era de gran importancia.<Br>
-            Aquellos en la primera clase tenían una mayor probabilidad de sobrevivir en comparación con los pasajeros de la tercera clase.<Br>""")
+            Aquellos en la primera clase tenían una mayor probabilidad de sobrevivir en comparación con los pasajeros que viajaban en la tercera clase.<Br>""")
     
     Frase2= ('🚢 Supervivencia vs género:')
     Frase2bis=("""Los datos muestran que si bien el 65% de pasajeros eran hombres,
             la supervivencia de las mujeres fue 74% en comparacion del 18% para hombres. """)
 
     Frase3 = ('🚢 Supervivencia vs tipo de compañía:')
-    Frase3bis = ("""La probabilidad de sobrevivir era un 20% mayor para los pasajeros que iban acompañados""")
+    Frase3bis = ("""La probabilidad de sobrevivir era un 20% mayor para los pasajeros que iban acompañados.""")
     
     Frase4 = ('🚢 Supervivencia vs Tarifa de billete:')
     Frase4bis = ("""La diferencia en las tarifas se tradujo no sólamente en diferencias en las condiciones de vida a bordo
-            sino que también en las posibilidades de supervivencia durante el naufragio. Hubo mayor sobrevivientes en la primera clase""")
+            sino que también en las posibilidades de supervivencia durante el naufragio. Hubo mayor sobrevivientes en la primera clase.""")
 
 
     Frase5="""En resumen, el análisis de datos nos ofrece una ventana única para comprender las complejas dinámicas sociales
