@@ -1,3 +1,5 @@
+PROYECTO TITANIC
+
 Durante este proyecto haré el análisis exploratorio de datos aplicando técnicas de análisis y visualización de datos:
 
 1. Exploraré el conjunto de datos para comprender la estructura, los tipos de variables presentes y cómo están distribuidas.
