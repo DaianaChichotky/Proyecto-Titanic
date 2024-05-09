@@ -14,8 +14,8 @@ import streamlit as st
 # layout="centered" or "wide".
 st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon='🚢')
 
-logo1 = "Proyecto-Titanic/img/logo_main.png"
-logo2 = "Proyecto-Titanic//img//logo_sidebar.jpg"
+logo1 = "img\logo_main.png"
+logo2 = "img\logo_sidebar.jpg"
 
 
 # --------------------COLUMNAS----------------------------------------------------#
@@ -48,7 +48,7 @@ st.sidebar.title('Filtros')
 st.sidebar.write('-------')
 
 # --------------------COSAS QUE VAMOS A USAR EN TODA LA APP------------------------#
-df = pd.read_csv(r"Proyecto-Titanic/titanic.csv")
+df = pd.read_csv(r"titanic.csv")
 
 # Para reemplazar los valores nulos de las edades voy a usar un enfoque de agrupación.
 # Voy a agrupar los datos por las columnas "Embarked" y "Pclass" y luego calcular la mediana de la columna "Age" dentro de cada grupo.
