@@ -48,7 +48,7 @@ st.sidebar.title('Filtros')
 st.sidebar.write('-------')
 
 # --------------------COSAS QUE VAMOS A USAR EN TODA LA APP------------------------#
-df = pd.read_csv(r"titanic.csv")
+df = pd.read_csv(r"Data//titanic.csv")
 
 # Para reemplazar los valores nulos de las edades voy a usar un enfoque de agrupación.
 # Voy a agrupar los datos por las columnas "Embarked" y "Pclass" y luego calcular la mediana de la columna "Age" dentro de cada grupo.
