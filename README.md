@@ -13,4 +13,5 @@ Resultados
 
 App de Streamlit
 - Cree una app de Streamlit para visualizar los resultados del análisis.
-La app se encuentra en el archivo titanic.app.py y se puede ejecutar con el comando streamlit run titanic.app.py
+La app se encuentra en el archivo titanic.app.py y se puede ejecutar con el comando streamlit run titanic.app.py o a través del siguiente link:
+https://proyecto-titanic-exposicion.streamlit.app/ 
