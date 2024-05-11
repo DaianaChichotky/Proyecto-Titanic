@@ -14,8 +14,8 @@ import streamlit as st
 # layout="centered" or "wide".
 st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon='🚢')
 
-logo1 = "img\logo_main.png"
-logo2 = "img\logo_sidebar.jpg"
+logo1 = "img/logo_main.png"
+logo2 = "img/logo_sidebar.jpg"
 
 
 # --------------------COLUMNAS----------------------------------------------------#
