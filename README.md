@@ -15,4 +15,6 @@ The results of the analysis can be found in the file Analisis_Titanic.ipynb.
 
 🔗 Link to the Streamlit App: https://proyecto-titanic-exposicion.streamlit.app/
 
+<img src="Streamlit_Titanic_recording.gif" alt="Texto alternativo" autoplay>
+
 
