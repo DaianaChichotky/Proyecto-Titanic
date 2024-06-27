@@ -17,27 +17,17 @@ st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon=
 logo1 = "img/logo_main.png"
 logo2 = "img/logo_sidebar.jpg"
 
-
-# --------------------COLUMNAS----------------------------------------------------#
-
-col1, col2, col3 = st.columns([1,18,1])
-
 st.write(f"<p style='font-size:40px; text-align:center; margin-top:-490px; font-weight: bold; text-decoration: underline;'>INFORME TITANIC</p>", unsafe_allow_html=True)
+st.image(logo1, width=1000)
 
-with col1 :
-    st.write(" ")
-    st.write(" ")
-    
-with col2 :
-    st.write(" ")
-    st.write(" ")
-    st.image(logo1, width=1000)
-    
-with col3 :
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.write(f"<p style='font-size:10px;text-align:center;'>Imágenes publicadas por Francis Godolphin Osbourne Stuart</p>", unsafe_allow_html=True)
-    
-    
+
+# Descripción
+descripcion = """El hundimiento del Titanic es uno de los eventos más trágicos y emblemáticos en la historia marítima.<Br>
+En la noche de abril de 1912, este majestuoso transatlántico chocó contra un iceberg en su viaje inaugural desde Southampton hacia Nueva York.<Br>
+En este proyecto de análisis de datos, analizaremos a sus pasajeros, quiénes eran, qué edad tenían, de qué clase social venían y
+quiénes lograron sobrevivir.<br>
+Los invito a que naveguemos juntos por los datos del Titanic, buscando respuestas y revelaciones.""" 
+st.write(f"<p style='font-size:14px; text-align:center;'>{descripcion}</p>", unsafe_allow_html=True)
 
 # --------------------SIDEBAR------------------------------------------------------#
 
@@ -100,13 +90,6 @@ nuevo_orden_columnas = ['ID pasajero', 'Nombre', 'Género', 'Edad', 'Grupo de Ed
 df = df[nuevo_orden_columnas]
 
 
-# Descripción
-descripcion = """El hundimiento del Titanic es uno de los eventos más trágicos y emblemáticos en la historia marítima.<Br>
-En la noche de abril de 1912, este majestuoso transatlántico chocó contra un iceberg en su viaje inaugural desde Southampton hacia Nueva York.<Br>
-En este proyecto de análisis de datos, analizaremos a sus pasajeros, quiénes eran, qué edad tenían, de qué clase social venían y
-quiénes lograron sobrevivir.<br>
-Los invito a que naveguemos juntos por los datos del Titanic, buscando respuestas y revelaciones.""" 
-st.write(f"<p style='font-size:14px; text-align:center;'>{descripcion}</p>", unsafe_allow_html=True)
 
 # --------------------SIDEBAR FILTRO 1-----------------------------#
 
