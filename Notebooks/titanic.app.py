@@ -3,11 +3,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import plotly.graph_objects as go
 import plotly.express as px
+import plotly.graph_objects as go
 import seaborn as sns
 import streamlit as st
-
 
 # --------------------CONFIGURACIÓN DE LA PÁGINA----------------------------------#
 
@@ -21,7 +20,9 @@ st.title('Informe sobre Titanic')
 logo1 = "img/logo_main.png"
 
 
-st.image(logo1, width=1000)
+st.write("<p style='font-size:40px; text-align:center; font-weight: bold; text-decoration: underline;'>INFORME TITANIC</p>", unsafe_allow_html=True)
+
+st.image(logo1, width=1000, use_column_width=True)
 
 
 # Descripción
