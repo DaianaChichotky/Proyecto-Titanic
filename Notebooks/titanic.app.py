@@ -12,12 +12,15 @@ import streamlit as st
 # --------------------CONFIGURACIÓN DE LA PÁGINA----------------------------------#
 
 # layout="centered" or "wide".
-st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon='🚢')
+
+st.title('Informe sobre Titanic')
+#st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon='🚢')
+
+#st.write(f"<p style='font-size:40px; text-align:center; margin-top:-490px; font-weight: bold; text-decoration: underline;'>INFORME TITANIC</p>", unsafe_allow_html=True)
 
 logo1 = "img/logo_main.png"
-logo2 = "img/logo_sidebar.jpg"
 
-st.write(f"<p style='font-size:40px; text-align:center; margin-top:-490px; font-weight: bold; text-decoration: underline;'>INFORME TITANIC</p>", unsafe_allow_html=True)
+
 st.image(logo1, width=1000)
 
 
@@ -32,6 +35,8 @@ st.write(f"<p style='font-size:14px; text-align:center;'>{descripcion}</p>", uns
 # --------------------SIDEBAR------------------------------------------------------#
 
 # Contenido adicional del sidebar
+
+logo2 = "img/logo_sidebar.jpg"
 
 st.sidebar.image(logo2, use_column_width=True)
 st.sidebar.title('Filtros')
