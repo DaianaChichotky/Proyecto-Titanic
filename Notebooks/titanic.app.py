@@ -12,7 +12,7 @@ import streamlit as st
 
 # layout="centered" or "wide".
 
-st.title('Informe sobre Titanic')
+#st.title('Informe sobre Titanic')
 #st.set_page_config(page_title='Informe sobre Titanic', layout='wide', page_icon='🚢')
 
 #st.write(f"<p style='font-size:40px; text-align:center; margin-top:-490px; font-weight: bold; text-decoration: underline;'>INFORME TITANIC</p>", unsafe_allow_html=True)
